@@ -4,9 +4,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Human kayla = new Human();
-        kayla.age = 12;
-        kayla.name = "Kayla";
+        Human kayla = new Human("Kayla");              
         kayla.introduce();
     }
 }

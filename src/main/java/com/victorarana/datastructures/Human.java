@@ -9,4 +9,15 @@ public class Human {
 		System.out.println("I'm " + name + " and I'm " + age + " years old.");
 	}
 	
+	public void copy(Human original){
+		age = original.age;
+		name = original.name;
+	}
+
+	public Human(String givenName) {
+		age = 12;
+		name = givenName;
+	}
+	
+	
 }
